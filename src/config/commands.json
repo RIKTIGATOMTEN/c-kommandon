@@ -1,1 +1,20 @@
-
+{
+  "kommandon": [
+    {
+      "name": "swish",
+      "description": "Här får du swish-numret!",
+      "response": "Hej! Du kan swisha till detta nummer\n\nTel: 07x-xxx-xx-xx\nKommentaren ska innehålla följande: Jag accepterar era köpvillkor och användarvillkor",
+      "useEmbed": false,
+      "embedColor": "#FF5733",
+      "flags64": true
+    },
+    {
+      "name": "paypal",
+      "description": "Här får du PayPal-länken!",
+      "response": "Hej <<@user>>!\nBetala via PayPal här:\nhttps://paypal.me/dittkonto",
+      "useEmbed": true,
+      "embedColor": "#FF5733",
+      "flags64": true
+    }
+  ]
+}
